@@ -1,0 +1,9 @@
+/*********************
+ * @author Thomas Le
+ * Copyright 2024
+ *
+ * All rights reserved.
+ * Distribution of the software in any form is only allowed with
+ * explicit, prior permission from the owner.
+ *
+ */
