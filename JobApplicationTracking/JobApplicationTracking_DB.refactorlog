@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="9f3db139-8c1a-4f71-80c9-d184fb56b0cc" ChangeDateTime="02/14/2024 23:50:10">
+    <Property Name="ElementName" Value="[dbo].[Applications].[ApplicationURL]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Applications]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ApplicationURLID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="289ea005-5fdc-469c-a89c-637a87601e90" ChangeDateTime="02/14/2024 23:50:13">
+    <Property Name="ElementName" Value="[dbo].[Applications].[JobPostingURL]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Applications]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="JobPostingURLID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e2b231c9-e4b4-41f9-a09b-b94d444e64fb" ChangeDateTime="02/14/2024 23:50:16">
+    <Property Name="ElementName" Value="[dbo].[Applications].[ApplicationSource]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Applications]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ApplicationSourceID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5a181f8a-4900-4f30-89d9-57a5fedd74a7" ChangeDateTime="02/14/2024 23:50:20">
+    <Property Name="ElementName" Value="[dbo].[Applications].[JobTitle]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Applications]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="JobTitleID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9c66b4a-18b1-4c9d-8564-fdc1959e26e1" ChangeDateTime="02/14/2024 23:50:28">
+    <Property Name="ElementName" Value="[dbo].[Applications].[SalaryStart]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Applications]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SalaryRangeID" />
+  </Operation>
+</Operations>
