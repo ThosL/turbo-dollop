@@ -35,4 +35,46 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="SalaryRangeID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="8721ad58-b2da-4d42-9105-93afbc52986e" ChangeDateTime="02/15/2024 03:29:03">
+    <Property Name="ElementName" Value="[dbo].[JobTitle].[JobTitle]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[JobTitle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Title" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d82d34bb-874c-4051-8b50-32847e64e95b" ChangeDateTime="02/15/2024 03:32:16">
+    <Property Name="ElementName" Value="[dbo].[ApplicationURIs].[ApplicationURI]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ApplicationURIs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="URI" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d26a571f-557f-4575-aca6-b5d1fcde6910" ChangeDateTime="02/15/2024 03:34:43">
+    <Property Name="ElementName" Value="[dbo].[Lookup_PostingSource].[SourceName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lookup_PostingSource]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="69422ee4-1422-407e-9a25-9311925cff4a" ChangeDateTime="02/15/2024 03:35:23">
+    <Property Name="ElementName" Value="[dbo].[Lookup_ApplicationResponse].[ResponseText]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lookup_ApplicationResponse]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Text" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dc5fb042-9da1-4946-9955-732715dfd282" ChangeDateTime="02/15/2024 03:37:35">
+    <Property Name="ElementName" Value="[dbo].[SalaryRanges].[SalaryTop]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SalaryRanges]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Top" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="508e2ec4-5f3c-43db-97db-c757c3b57ec1" ChangeDateTime="02/15/2024 03:37:40">
+    <Property Name="ElementName" Value="[dbo].[SalaryRanges].[SalaryBottom]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SalaryRanges]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Bottom" />
+  </Operation>
 </Operations>
